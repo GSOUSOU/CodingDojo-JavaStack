@@ -1,4 +1,3 @@
-
 public class Bat extends Mammal{
 
 	public Bat(int energy) {

@@ -5,6 +5,7 @@ public class GorillaTest {
         gorilla.throwSomething();
         gorilla.throwSomething();
         
+        
         gorilla.eatBananas();
         gorilla.eatBananas();
         

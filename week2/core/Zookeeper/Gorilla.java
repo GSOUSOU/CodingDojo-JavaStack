@@ -3,7 +3,7 @@ public class Gorilla extends Mammal {
 public Gorilla(int energy) {
 		super(energy);
 		  System.out.println("gorilla" +energy);
-		  // energy 
+		 
 	}
 
    public void   throwSomething(){
