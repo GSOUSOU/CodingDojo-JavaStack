@@ -1,0 +1,14 @@
+table {
+	background-color:lightpink;
+
+}
+th, td {
+  
+  text-align: left;
+  padding:20px;
+  
+}
+tr {
+  background-color: white;
+  color: black;
+}
