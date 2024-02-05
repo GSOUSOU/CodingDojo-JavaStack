@@ -1,0 +1,31 @@
+.content {
+    width: 80%;
+}
+.main_container {
+   padding:30px; 
+}
+.formspart{
+	 display: flex;
+   justify-content:  space-between;
+   margin-bottom:20px
+}
+.gold{
+	margin:20px;
+	
+}
+form{
+	border:2px solid black;
+	padding:10px;
+	 text-align:center;
+		 
+}
+input[type="submit"] {
+    color:BLACK;
+    border:1px solid black;
+    font-size: 10px;
+    box-shadow: 2px 2px #000000;
+}
+.iframe {
+	width:800px;
+	height:350px
+}
