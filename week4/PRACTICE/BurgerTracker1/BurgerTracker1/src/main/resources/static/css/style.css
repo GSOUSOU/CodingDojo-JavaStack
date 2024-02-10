@@ -1,0 +1,33 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+      display: flex;
+    justify-content: center;
+    height: 1000px;
+}
+
+.container {
+       margin: 20px; /* Espacement de 20 pixels sur tous les côtés */
+    padding: 20px;
+  
+    
+}
+table {
+    border-collapse: collapse;
+     border: 2px solid BLACK; 
+}
+table th{
+	 background-color: #bab6b8; 
+}
+table td, table th {
+    padding: 8px;   
+    width: auto; 
+}
+tr:nth-child(even){
+  background-color: #e1dfe0;
+}
+td:not(:last-child), th:not(:last-child) {
+    border-right: 2px solid BLACK;
+}
