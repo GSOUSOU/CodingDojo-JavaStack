@@ -9,6 +9,7 @@
 <meta charset="ISO-8859-1">
 <title>Insert title here</title>
 <link rel="stylesheet" type="text/css" href="/css/style.css">
+ 
 </head>
 <body>
 <div class="container">
@@ -18,6 +19,7 @@
             <th>Burger Name</th>
             <th>restaurant Name</th>
             <th>Rating(out of 5)</th>
+             <th>action</th>
            
         </tr>
     </thead>
@@ -27,12 +29,13 @@
                <td>${burger.name}</td>
                 <td>${burger.restaurantName}</td>
                 <td>${burger.rating}</td>
+                <td><a href="/Burgers/${burger.id}/edit">edit</a></td>
             </tr>
         </c:forEach>
     </tbody>
 </table>
 <h1>Add a Burger</h1>
-<form:form action="/burgers" method="post" modelAttribute="burger">
+<form:form action="/Burgers" method="post" modelAttribute="burger">
     <p>
         <form:label path="name">Burger Name:</form:label>
         <form:errors path="name"/>
